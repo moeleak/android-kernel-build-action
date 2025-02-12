@@ -1,4 +1,4 @@
-﻿#include "sys.h"
+﻿#include "rwProcMem.h"
 
 MY_STATIC int rwProcMem_open(struct inode *inode, struct file *filp) {
 	printk_debug(KERN_INFO "rwProcMem_open!!!!\n");
